@@ -6,13 +6,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-@media screen and(max-width: 375px) {
-      body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-} 
-    }
 .feature-title {
     display: flex;
     flex-direction: column;
@@ -157,3 +150,14 @@ body {
       flex-direction: column;
       gap:inherit;
 }
+@media screen and(max-width: 375px) {
+      body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;}
+    .cards{
+        display:flex;
+        flex-direction:column;
+        margin:20px auto;
+    }
+} 
