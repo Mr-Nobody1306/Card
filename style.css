@@ -156,6 +156,8 @@ body {
     padding: 0;
     background-color: #f4f4f4;}
     .cards{
+        width:150px;
+        height: 90px;
         display:flex;
         flex-direction:column;
         margin:20px auto;
